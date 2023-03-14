@@ -1,0 +1,301 @@
+*{
+    margin: 0; padding: 0; box-sizing: content-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+nav{
+    width: 100%; height: 15vh;
+    background: #05d4e77b;
+    color: aliceblue; display: flex; justify-content: space-between;
+    align-items: center; text-transform: uppercase;
+}
+
+nav .logo{
+    width: 25%; text-align: center;
+
+}
+
+nav .menu{
+    width: 50%; text-align: center;
+    display: flex; justify-content: space-around;
+}
+
+nav .menu a {
+    width: auto;
+    text-decoration: none; color: white;
+    padding: 15px 32px;
+    
+}
+
+nav .menu a:hover {
+    color: #05D5E7;
+    font-size: large;
+    transition-duration: 0.8s;
+    
+}
+
+nav .button{
+  background-color: #05D5E7;
+  border: none;
+  color: white;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer; border-radius: 10px;
+  transition-duration: 0.3s;
+}
+nav .button:hover {
+    color: #05D5E7;
+    background-color: white;
+    
+}
+
+main .places {
+    align-items: center;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.places .para {
+    color: white;
+    font-size: large;
+    margin-left: 5%;
+    justify-items: center;
+}
+
+main .places .image1{
+    background-image: url(../images/image1.jpg);
+    background-size: cover;
+    justify-content: center;
+    width: 90%;
+    height: 120vh;
+    border: 30px solid #ffffff;
+    border-bottom-right-radius: 10%;
+    border-top-left-radius: 10%;
+    text-justify: ;
+}
+
+
+main .places .image2{
+    background-image: url(../images/image2.jpg);
+    background-size: cover;
+    justify-content: center;
+    width: 90%;
+    height: 120vh;
+    border: 10px solid #ffffff;
+    border-bottom-right-radius: 10%;
+    border-top-left-radius: 10%;
+}
+main .places .image3{
+    background-image: url(../images/image3.jpeg);
+    background-size: cover;
+    justify-content: center;
+    width: 90%;
+    height: 120vh;
+    border: 10px solid #ffffff;
+    border-bottom-right-radius: 10%;
+    border-top-left-radius: 10%;  
+}
+main .places .image4{
+    background-image: url(../images/image4.jpg);
+    background-size: cover;
+    justify-content: center;
+    width: 90%;
+    height: 120vh;
+    border: 10px solid #ffffff;
+    border-bottom-right-radius: 10%;
+    border-top-left-radius: 10%;  
+    
+    }
+main .places .image5{
+    background-image: url(../images/image5.jpg);
+    background-size: cover;
+    justify-content: center;
+    width: 90%;
+    height: 120vh;
+    border: 10px solid #ffffff;
+    border-bottom-right-radius: 10%;
+    border-top-left-radius: 10%;  
+    
+}
+main .places .image6{
+    background-image: url(../images/image6.jpg);
+    background-size: cover;
+    justify-content: center;
+    width: 90%;
+    height: 120vh;
+    border: 10px solid #ffffff;
+    border-bottom-right-radius: 10%;
+    border-top-left-radius: 10%;  
+}
+main .places .image7{
+    background-image: url(../images/image7.jpg);
+    background-size: cover;
+    justify-content: center;
+    width: 90%;
+    height: 120vh;
+    border: 10px solid #ffffff;
+    border-bottom-right-radius: 10%;
+    border-top-left-radius: 10%;  
+}
+main .places .image8{
+    background-image: url(../images/image8.jpg);
+    background-size: cover;
+    justify-content: center;
+    width: 90%;
+    height: 0120vh;
+    border: 10px solid #ffffff;
+    border-bottom-right-radius: 10%;
+    border-top-left-radius: 10%;  
+    
+}
+main .places .image9{
+    background-image: url(../images/image9.jpg);
+    background-size: cover;
+    justify-content: center;
+    width: 90%;
+    height: 0120vh;
+    border: 10px solid #ffffff;
+    border-bottom-right-radius: 10%;
+    border-top-left-radius: 10%;  
+    
+}
+main .places .image10{
+    background-image: url(../images/image10.jpg);
+    background-size: cover;
+    justify-content: center;
+    width: 90%;
+    height: 0120vh;
+    border: 10px solid #ffffff;
+    border-bottom-right-radius: 10%;
+    border-top-left-radius: 10%;  
+    
+}
+main .places .image11{
+    background-image: url(../images/image11.jpg);
+    background-size: cover;
+    justify-content: center;
+    width: 90%;
+    height: 0120vh;
+    border: 10px solid #ffffff;
+    border-bottom-right-radius: 10%;
+    border-top-left-radius: 10%;  
+    
+}
+
+
+
+
+
+
+
+
+
+
+.footer{
+    padding: 100px 15%;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    color: whitesmoke;
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1));
+    background-color: #05D5E7;
+    
+}
+
+
+.footer div{
+    text-align: center;
+    color: white;
+}
+
+
+
+
+
+
+.f-about{
+    width: 40%;
+    text-align: center;
+}
+.f-about h2{
+    padding-bottom: 10px;
+}
+.f-about p {
+    text-align: left;
+}
+
+
+
+
+
+
+
+.f-links{
+    width: 30%;
+    text-align: center;
+    
+}
+.f-links h2 {
+    padding-bottom: 10px;
+}
+.f-links ul li a {
+    text-decoration: none;
+    justify-content: center;
+    color: white;
+    padding: auto;
+}
+.f-links ul li a:hover{
+    font-size: 17px;
+    transition-duration: 0.8s;
+}
+.f-links ul li{
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+.f-services{
+    width: 30%;
+    text-align: center;
+    text-decoration: none;
+}
+.f-services h2 {
+    padding-bottom: 10px;
+}
+.f-services ul li a {
+    text-decoration: none;
+    justify-content: center;
+    color: white;
+    padding: auto;
+}
+.f-services ul li{
+    list-style: none;
+    padding-bottom: 10px;
+    
+}
+.f-services ul li a:hover{
+    font-size: 17px;
+    transition-duration: 0.8s;
+}
+
+
+
+
+
+
+
+
+
+
+
+

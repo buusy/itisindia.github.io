@@ -1,0 +1,103 @@
+*{
+    margin: 0; padding: 0; box-sizing: content-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+nav .head {
+    display: flex;
+    color: #05D5E7;
+    justify-content: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    word-spacing: 1px;
+    font-size: x-large
+}
+
+body {
+    background-image: url(../images/siback.jpg);
+    width: 100%; height: 100vh;
+    background-size: cover;
+}
+main .box {
+    height: 70vh;
+    display: flex;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+section .img {
+    border: 2px;
+    background-image: url(../images/siup.jpg);
+    background-size: cover;
+    width: 50%;
+    justify-content: center;
+}
+section .img-text {
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    margin-top: 120px;
+    line-height: 20px;
+    align-items: center;
+}
+
+
+
+section .signup-page {
+    background-color: #333333;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+section .h1 {
+    font-size: 30px;
+}
+section form label {
+    margin-top: 50px;
+    font-size: small;
+    display: flex;
+    align-items: center;
+}
+section .signbtn {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    justify-content: right;
+    font: bolder;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+main p {
+    font: bold;
+    vertical-align: bottom;
+    color: rgb(216, 216, 216);
+    text-align: center;
+    
+    
+}

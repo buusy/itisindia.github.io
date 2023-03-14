@@ -4,7 +4,7 @@
 }
 header{
     width: 100%; height: 100%;
-    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)), url(../images/back.jpg);
+    background-image: url(images/statesback.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -21,7 +21,7 @@ nav .logo{
 }
 
 nav .menu{
-    width: 75%; text-align: center;
+    width: 50%; text-align: center;
     display: flex; justify-content: space-around;
 }
 
@@ -56,54 +56,18 @@ nav .button:hover {
     
 }
 
-main{
-    width: 100%; height: 85vh;
-    display: flex;
-    text-align: center;
+
+main {
+    border: #05D5E7;
+    width: fit-content;
     justify-content: center;
-    align-items: center;
-    color: white;
-    
-}
-section h3{
-    font-size: 30px; font-weight: 100; letter-spacing: 10px;
-    text-shadow: 1px 1px 1px black;
-
-}
-section h1{
-    margin: 20px 0 20px 0;
-    font-size: 60px; letter-spacing: 10px;
-    text-shadow: 1px 1px 1px black;
-    text-transform: uppercase;
-
-
-}
-
-section p{
-    margin-bottom: 25px;
-    font-size: 25px; letter-spacing: 2px;
-    text-shadow: 1px 1px 1px black;
+    padding-top: 30px;
 }
 
 
-.change_contant:after{
-    content: '';
-    animation: changetext 20s infinite linear;
-    color: #05D5E7;
 
-}
-@keyframes changetext{
-    0%{ content: "Kerala";}
-    10%{ content: "Punjab";}
-    20%{ content: "Uttar Pradesh";}
-    30%{ content: "Goa";}
-    40%{ content: "Mizoram";}
-    50%{ content: "Manipur";}
-    60%{ content: "bihar";}
-    70%{ content: "Maharashtra";}
-    80%{ content: "Uttarakhand";}
-    100%{ content: "Jammu & Kashmir";}
-}
+
+
 
 
 
@@ -119,10 +83,6 @@ section p{
     background-color: #05D5E7;
     
 }
-
-
-
-
 
 
 .footer div{
@@ -203,6 +163,13 @@ section p{
     font-size: 17px;
     transition-duration: 0.8s;
 }
+
+
+
+
+
+
+
 
 
 

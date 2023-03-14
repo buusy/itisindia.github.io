@@ -4,9 +4,9 @@
 }
 header{
     width: 100%; height: 100%;
-    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)), url(../images/back.jpg);
+    background-image: url(images/statesback.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
 }
 nav{
     width: 100%; height: 15vh;
@@ -55,6 +55,97 @@ nav .button:hover {
     background-color: white;
     
 }
+
+
+main {
+    border: #05D5E7;
+    width: fit-content;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+
+
+
+main .statespage {
+    padding-left: 200px;
+    padding-bottom: 30px;
+    justify-content: center;
+    align-content: center;
+    color: rgb(0, 122, 122);
+    display: flex;
+    font: bold;
+    contain: content;
+}
+
+
+
+
+
+
+main .states{
+    padding-left: 100px;
+    text-decoration: none;
+    justify-content: center;
+    text-align: center;
+    
+}
+main .states a {
+    text-decoration: none;
+    justify-content: center;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    line-height: 1.8;
+    
+}
+
+
+
+
+
+
+
+main .capitals{
+    padding-left: 200px;
+    text-decoration: none;
+    justify-content: center;
+    
+}
+main .capitals a {
+    text-decoration: none;
+    justify-content: center;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    line-height: 1.8;
+
+}
+
+
+
+
+
+
+main .found{
+    padding-left: 100px;
+    text-decoration: none;
+    justify-content: center;
+
+}
+main .found a {
+    text-decoration: none;
+    justify-content: center;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    line-height: 1.8;
+
+}
+
+
+
+
+
+
+
 
 
 .footer{
@@ -148,27 +239,6 @@ nav .button:hover {
     transition-duration: 0.8s;
 }
 
-main .statespage{
-    width: 100%; height: auto;
-    color: white;
-    padding: 100px 0;
-    display: flex;
-    align-content: space-between;
-    justify-content: center;
-}
-
-main .states{
-    width: 33%;
-    text-align: center;
-    text-decoration: none;
-}
-main .states a {
-    text-decoration: none;
-    justify-content: center;
-    color: white;
-    padding-bottom: 10px;
-
-}
 
 
 
