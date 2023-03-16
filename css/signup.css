@@ -29,16 +29,18 @@ section .img {
     background-image: url(../images/siup.jpg);
     background-size: cover;
     width: 50%;
-    justify-content: center;
 }
-section .img-text {
+main .img-text {
+    width: 90%;
     color: white;
-    padding-left: 10px;
-    padding-right: 10px;
-    text-align: center;
-    margin-top: 120px;
-    line-height: 20px;
-    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 50%;
+    justify-content: center;
+    align-content: center;
+    
 }
 
 
@@ -47,25 +49,30 @@ section .signup-page {
     background-color: #333333;
     width: 50%;
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-left: 5%;
+    padding-right: 5%;
     color: white;
+    align-content: center;
 }
 section .h1 {
     font-size: 30px;
+    text-align: left;
 }
 section form label {
     margin-top: 50px;
     font-size: small;
-    display: flex;
-    align-items: center;
 }
 section .signbtn {
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 7px;
     padding-bottom: 7px;
-    justify-content: right;
     font: bolder;
+    width: 25%;
+    justify-self: right;
+    
 }
 
 

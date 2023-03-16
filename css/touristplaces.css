@@ -6,7 +6,7 @@
 
 nav{
     width: 100%; height: 15vh;
-    background: #05d4e77b;
+    background-image:linear-gradient(rgb(2, 223, 252),rgba(2, 223, 252, 0.39));
     color: aliceblue; display: flex; justify-content: space-between;
     align-items: center; text-transform: uppercase;
 }
@@ -70,121 +70,109 @@ main .places {
 
 main .places .image1{
     background-image: url(../images/image1.jpg);
-    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
     justify-content: center;
-    width: 90%;
-    height: 120vh;
     border: 30px solid #ffffff;
-    border-bottom-right-radius: 10%;
-    border-top-left-radius: 10%;
-    text-justify: ;
 }
 
 
 main .places .image2{
     background-image: url(../images/image2.jpg);
-    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
     justify-content: center;
-    width: 90%;
-    height: 120vh;
-    border: 10px solid #ffffff;
-    border-bottom-right-radius: 10%;
-    border-top-left-radius: 10%;
+    border: 30px solid #ffffff;
 }
 main .places .image3{
-    background-image: url(../images/image3.jpeg);
-    background-size: cover;
+    background-image: url(../images/image3.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
     justify-content: center;
-    width: 90%;
-    height: 120vh;
-    border: 10px solid #ffffff;
-    border-bottom-right-radius: 10%;
-    border-top-left-radius: 10%;  
+    border: 30px solid #ffffff;
 }
 main .places .image4{
     background-image: url(../images/image4.jpg);
-    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
     justify-content: center;
-    width: 90%;
-    height: 120vh;
-    border: 10px solid #ffffff;
-    border-bottom-right-radius: 10%;
-    border-top-left-radius: 10%;  
+    border: 30px solid #ffffff;
     
     }
 main .places .image5{
     background-image: url(../images/image5.jpg);
-    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
     justify-content: center;
-    width: 90%;
-    height: 120vh;
-    border: 10px solid #ffffff;
-    border-bottom-right-radius: 10%;
-    border-top-left-radius: 10%;  
+    border: 30px solid #ffffff;  
     
 }
 main .places .image6{
     background-image: url(../images/image6.jpg);
-    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
     justify-content: center;
-    width: 90%;
-    height: 120vh;
-    border: 10px solid #ffffff;
-    border-bottom-right-radius: 10%;
-    border-top-left-radius: 10%;  
+    border: 30px solid #ffffff; 
 }
 main .places .image7{
     background-image: url(../images/image7.jpg);
-    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
     justify-content: center;
-    width: 90%;
-    height: 120vh;
-    border: 10px solid #ffffff;
-    border-bottom-right-radius: 10%;
-    border-top-left-radius: 10%;  
+    border: 30px solid #ffffff;
 }
 main .places .image8{
     background-image: url(../images/image8.jpg);
-    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
     justify-content: center;
-    width: 90%;
-    height: 0120vh;
-    border: 10px solid #ffffff;
-    border-bottom-right-radius: 10%;
-    border-top-left-radius: 10%;  
+    border: 30px solid #ffffff; 
     
 }
 main .places .image9{
     background-image: url(../images/image9.jpg);
-    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
     justify-content: center;
-    width: 90%;
-    height: 0120vh;
-    border: 10px solid #ffffff;
-    border-bottom-right-radius: 10%;
-    border-top-left-radius: 10%;  
+    border: 30px solid #ffffff; 
     
 }
 main .places .image10{
     background-image: url(../images/image10.jpg);
-    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
     justify-content: center;
-    width: 90%;
-    height: 0120vh;
-    border: 10px solid #ffffff;
-    border-bottom-right-radius: 10%;
-    border-top-left-radius: 10%;  
+    border: 30px solid #ffffff; 
     
 }
 main .places .image11{
     background-image: url(../images/image11.jpg);
-    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
     justify-content: center;
-    width: 90%;
-    height: 0120vh;
-    border: 10px solid #ffffff;
-    border-bottom-right-radius: 10%;
-    border-top-left-radius: 10%;  
+    border: 30px solid #ffffff; 
     
 }
 

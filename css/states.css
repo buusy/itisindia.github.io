@@ -10,7 +10,7 @@ header{
 }
 nav{
     width: 100%; height: 15vh;
-    background: rgba(0,0,0,0.2);
+    background-image:linear-gradient(rgb(2, 223, 252),rgba(2, 223, 252, 0));
     color: aliceblue; display: flex; justify-content: space-between;
     align-items: center; text-transform: uppercase;
 }
@@ -85,11 +85,10 @@ main .statespage {
 
 main .states{
     text-decoration: none;
-    align-content: space-arounds;
+    align-content: space-around;
     justify-content: center;
     text-align: center;
     width: 20%;
-    text-align: center;
     
 }
 main .states a {
