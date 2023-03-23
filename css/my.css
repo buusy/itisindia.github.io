@@ -1,0 +1,231 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+header{
+    width: 100%; height: 100%;
+    background-image: url(images/statesback.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+nav{
+    width: 100%; height: 15vh;
+    background: rgba(0,0,0,0.2);
+    color: aliceblue; display: flex; justify-content: space-between;
+    align-items: center; text-transform: uppercase;
+}
+
+nav .logo{
+    width: 25%; text-align: center;
+
+}
+
+nav .menu{
+    width: 75%; text-align: center;
+    display: flex; justify-content: space-around;
+}
+
+nav .menu a {
+    width: auto;
+    text-decoration: none; color: white;
+    padding: 15px 32px;
+    
+}
+
+nav .menu a:hover {
+    color: #05D5E7;
+    font-size: large;
+    transition-duration: 0.8s;
+    
+}
+
+nav .button{
+  background-color: #05D5E7;
+  border: none;
+  color: white;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer; border-radius: 10px;
+  transition-duration: 0.3s;
+}
+nav .button:hover {
+    color: #05D5E7;
+    background-color: white;
+    
+}
+
+main {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+
+.box {
+    border: #05D5E7;
+    border-radius: 5px;
+    border-width: 50px;
+    max-width: 50%;
+    height: auto;
+    display: block;
+    box-shadow: #b7b7b7 2px 9px 20px 5px;
+    align-items: center;
+}
+.container {
+    padding: 10%;
+}
+
+img {
+    box-shadow: #b7b7b7 0px 0px 0px 0px;
+    width:100%;
+    height: auto;
+    display: flex;
+    vertical-align: middle;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    
+}
+    
+
+
+  .h1 {
+    font: bold;
+    font-size: xx-large;
+    text-decoration: none;
+    padding-left: 60px; padding-right: 60px; padding-top: 20px; padding-bottom: 20px;
+    border-radius: 50px;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    background-color: #05D5E7;
+    color: aliceblue;
+    display: block;
+}
+  .h2 {
+    font: bold;
+    font-size: xx-large;
+    text-decoration: none;
+    padding-left: 60px; padding-right: 60px; padding-top: 20px; padding-bottom: 20px;
+    border-radius: 50px;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    background-color: #05D5E7;
+    color: aliceblue;
+    display: block;
+}
+
+.i2 {
+    padding-top: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    padding: 100px 15%;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    color: whitesmoke;
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1));
+    background-color: #05D5E7;
+    
+}
+
+.footer div{
+    text-align: center;
+    color: white;
+}
+
+
+
+.f-about{
+    width: 40%;
+    text-align: center;
+}
+.f-about h2{
+    padding-bottom: 10px;
+}
+.f-about p {
+    text-align: left;
+}
+
+
+
+
+.f-links{
+    width: 30%;
+    text-align: center;
+    
+}
+.f-links h2 {
+    padding-bottom: 10px;
+}
+.f-links ul li a {
+    text-decoration: none;
+    justify-content: center;
+    color: white;
+    padding: auto;
+}
+.f-links ul li a:hover{
+    font-size: 17px;
+    transition-duration: 0.8s;
+}
+.f-links ul li{
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+
+
+
+.f-services{
+    width: 30%;
+    text-align: center;
+    text-decoration: none;
+}
+.f-services h2 {
+    padding-bottom: 10px;
+}
+.f-services ul li a {
+    text-decoration: none;
+    justify-content: center;
+    color: white;
+    padding: auto;
+}
+.f-services ul li{
+    list-style: none;
+    padding-bottom: 10px;
+    
+}
+.f-services ul li a:hover{
+    font-size: 17px;
+    transition-duration: 0.8s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
